@@ -1,7 +1,3 @@
-# REVERSE SUCCESSFULLY DONE
-# REVERSE BY MR. EX
-# TEAM DARK FORCE - 71
-#__________________| IMPORT |__________________#
 from os import path
 import requests,random,uuid,string,hashlib,json
 from os import path
