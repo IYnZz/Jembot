@@ -161,7 +161,7 @@ import os,httpx
 sexkey = "Jembot~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
 def approval():
     sexkey = "Jembot~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
-    ress=httpx.get("https://github.com/IYnZz/Kom/blob/main/CONTROLL").text
+    ress=httpx.get("https://github.com/IYnZz/Jembot/blob/main/PRO-CONTROL").text
     if sexkey in ress:
         menu()
     else:
